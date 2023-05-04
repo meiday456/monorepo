@@ -1,1 +1,1 @@
-export const sayHello = ()=>"hello from lib fixed"
+export const sayHello = () => "hello from lib fixed";
