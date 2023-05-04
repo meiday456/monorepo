@@ -19,7 +19,7 @@ export default function Home() {
             <main className={`${styles.main} ${inter.className}`}>
                 <div className={styles.description}>
                     <p>의존성 테스트 {sayHello()}</p>
-                    <Button>라이브러리 의존성 버튼</Button>
+                    <Button variant="contained">라이브러리 의존성 버튼</Button>
                     <div>
                         <a
                             href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
