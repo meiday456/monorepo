@@ -1,0 +1,8 @@
+{
+  "name": "@wanted/lib",
+  "main": "./src/index.ts",
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
