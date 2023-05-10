@@ -1,11 +1,11 @@
-name: CI-wanted-app
+name: CI-admin-app
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'apps/app1/**'
+      - 'apps/admin/**'
 
 jobs:
   test:
@@ -25,6 +25,6 @@ jobs:
         uses: ./.github/actions/yarn-install
 
       - name: Build web-app
-        working-directory: apps/app1
+        working-directory: apps/admin
         run: |
           yarn build
